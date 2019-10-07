@@ -16,11 +16,11 @@ To start, we need to find what kind of traffic is available in our pcap file. We
 
 ![Protocol Hierarchy](./screenshots/wireshark_protocol_hierarchy.png)
 
-We can see that the pcap file includes Transmission Control Protocol (TCP) and Hypertext Transfer Protocol (HTTP). We should take a look the 4 packets of HTTP. To do this, we can just apply a filter by typing the protocol we want:
+We can see that the pcap file includes Transmission Control Protocol (TCP) and Hypertext Transfer Protocol (HTTP). We should take a look the four packets of HTTP. To do this, we can just apply a filter by typing the protocol we want:
 
 ![HTTP Filter Hierarchy](./screenshots/wireshark_http_filter.png)
 
-We can see that there are two 200 status codes, but there are also 2 `GET` requests in this pcap. That means that there was data transfered in this pcap and we might be able to extract that data. There is a hard and easy way to do this. The hard way is to inspect each of those `GET` requests and save the data transfered. The easy way is to go to *File->Export Objects->HTTP*. This will show a window like the following: 
+We can see that there are two 200 status codes, but there are also two `GET` requests in this pcap. That means that there was data transfered in this pcap and we might be able to extract that data. There is a hard and easy way to do this. The hard way is to inspect each of those `GET` requests and save the data transfered. The easy way is to go to *File->Export Objects->HTTP*. This will show a window like the following: 
 
 ![Wireshark Export HTTP](./screenshots/wireshark_export_http.png)
 
