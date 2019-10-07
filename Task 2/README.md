@@ -77,14 +77,13 @@ Inside the file, there are tags labeled `<uses-permission>`. The two names are `
 
 ## Submission
 
-App Permissions
+### App Permissions
 - INTERNET
 - ACCESS_NETWORK_STATE
 
-
-SHA256 of Signing Cert (Hexadecimal/Base16 encoded): 
+### SHA256 of Signing Cert (Hexadecimal/Base16 encoded): 
 - 9c7066b5e8646c756c9ad69fc378c953f07bc52848e17ab1efefe47620ce8b5d
 
-Certificate Signer name:
+### Certificate Signer name:
 - dev_terrorTime_459168
 
