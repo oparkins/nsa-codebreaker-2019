@@ -105,6 +105,12 @@ See the `brute_force_pin.py` file for my implementation of a brute force solutio
 The username is in clear text in the database. It is in the `cid` column. I suspect `cid` means `client id`.
 
 ### Logging into the application
+We first need to install the application. To do this, we can use ADB:
+
+```
+adb install terrorTime.apk
+```
+
 Now that we have the username and the pin, we can sign into the application. But we don't know all of the information yet to register a new user. Instead, we can use the database file that we downloaded to setup the application. 
 
 With TerrorTime closed, I used ADB (in root mode) to upload the database file up to the device:
